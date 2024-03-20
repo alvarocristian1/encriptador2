@@ -1,0 +1,1182 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/*@font-face{
+    font-family: millon;
+    src: url(MANCHESTER/SIGNATURE/TTF.TTF);
+}*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(128, 205, 51);
+    /*margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;*/
+    margin: 0%;
+}
+
+#cabeza{
+    background-color: rgb(248, 167, 60);
+    width: 100vw;
+    height: 10vh;
+    margin: 0%;
+    border-top: solid 1px black;
+}
+
+#cajalogo{
+    width: 20%;
+    height: 100%;
+    animation: repulso 2s infinite alternate;
+    
+    
+}
+
+@keyframes repulso {
+	0%{transform: scale(80%);
+    }
+	100%{
+		transform: scale(120%);
+	}
+}
+#logo{
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#principal{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+
+
+#alfa{
+    background-color: blueviolet;
+    width: 60vw;
+    height: 80vh;
+    margin: 0%;
+    
+}
+
+#alfa1{
+    background-color: rgb(174, 121, 224);
+    width: 100%;
+    height: 80%;
+    /*display: flex;*/
+    align-items: center;
+}
+
+#alfa2{
+    background-color: rgb(174, 121, 224);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    
+
+}
+
+.a2{
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+#beta{
+    background-color: rgb(189, 147, 213);
+    width: 40vw;
+    height: 80vh;
+    margin: 0%;
+}
+
+#beta1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.beta2{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(189, 147, 213);
+}
+
+.img1{
+    width: 50%;
+    height: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*align-items: center;*/
+    margin-left: 30%;
+    
+}
+
+.textimagen{
+    font-size: 16px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+#beta3{
+    width: 100%;
+    height: 20%;
+}
+
+
+form{
+    width: 80%;
+    height: 20%;
+    /*background-color: blueviolet;*/
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#signo{
+    width: 80%;
+    height: auto;
+    font-size: 18px;
+    display: block;
+    margin-left: 14%;
+    margin-top: 0px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+#form2{
+    margin-top: 4%;
+    height: 50%;
+}
+
+input{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    color: black;
+    background-color: rgb(221, 166, 71);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: solid 1.5px black;
+    border-bottom: solid 1.5px black;
+}
+
+
+#aa{
+    font-size: 18px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    margin-top: 38px;
+    height: 20px;
+    
+
+}
+#bb{
+    font-size: 15px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    background-color: rgb(221, 166, 71);
+    height: 20px;
+}
+
+#pie{
+    background-color: rgb(221, 166, 71);
+    width: 100vw;
+    height: 10vh;
+    margin: 0%;
+    display: flex;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color:rgb(221, 166, 71);
+    font-size: 18px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    transition: 0.8s;
+    
+}
+
+button:hover{
+    background-color: blueviolet;
+
+}
+
+#beta3{
+    display: flex;
+    /*align-items: center;*/
+}
+#b3{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b4{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#diseñador{
+    font-size: 15px;
+    
+    width: 100%;
+    
+
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+
+#Designs{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    font-family: millon;
+    
+    
+    
+}
+.uno{
+    width: 25%;
+    height: auto;
+    background-color: rgb(221, 166, 71);
+}
+
+.due{
+    width: 25%;
+    height: auto;
+    background-color: rgb(221, 166, 71);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------  TABLET  ------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    html{
+        width: 100vw;
+        height: auto;
+        background-color: black;
+    }
+    
+    @font-face{
+        font-family: millon;
+        src: url(MANCHESTER\ SIGNATURE\ TTF.TTF);
+    }
+    body{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(128, 205, 51);
+        margin: 0%;
+    }
+    
+    #cabeza{
+        background-color: rgb(248, 167, 60);
+        width: 100vw;
+        height: 10vh;
+        margin: 0%;
+        border-top: solid 1px black;
+    }
+    
+    #cajalogo{
+        width: 20%;
+        height: 100%;
+        animation: repulso 2s infinite alternate;
+        
+        
+    }
+    
+    @keyframes repulso {
+        0%{transform: scale(80%);
+        }
+        100%{
+            transform: scale(120%);
+        }
+    }
+    #logo{
+        width: 40%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 10px
+        
+    
+    }
+    
+    #principal{
+        background-color: red;
+        width: 100vw;
+        height: 80vh;
+        display: block;
+    }
+    
+    
+    #alfa{
+        background-color: blueviolet;
+        width: 100vw;
+        height: 40vh;
+        margin: 0%;
+        
+    }
+    
+    #alfa1{
+        background-color: rgb(174, 121, 224);
+        width: 100vw;
+        height: 60%;
+        /*display: flex;*/
+        align-items: center;
+    }
+    
+    #alfa2{
+        background-color: rgb(174, 121, 224);
+        width: 100vw;
+        height: 40%;
+        display: flex;
+        
+    
+    }
+    
+    .a2{
+       margin-left: auto;
+       margin-right: auto;
+    
+    }
+    
+    #beta{
+        background-color: rgb(189, 147, 213);
+        width: 100vw;
+        height: 40vh;
+        margin: 0%;
+    }
+    
+    #beta1{
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .beta2{
+        width: 100vw;
+        height: 60%;
+        background-color: rgb(189, 147, 213);
+    }
+    
+    .img1{
+        width: 30%;
+        height: auto;
+        /*margin-left: auto;
+        margin-right: auto;*/
+        /*align-items: center;*/
+    
+        
+    }
+    
+    .textimagen{
+        font-size: 8px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    #beta3{
+        width: 100vw;
+        height: 20%;
+    }
+    
+    
+    form{
+        width: 80%;
+        height: 20%;
+        /*background-color: blueviolet;*/
+        margin-left: auto;
+        margin-right: auto;
+    
+        
+    }
+    #signo{
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+        display: block;
+        margin-left: 14%;
+        margin-top: 0px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+        
+    }
+    
+    #form2{
+        margin-top: 4%;
+        height: 50%;
+    }
+    
+    input{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        color: black;
+        background-color: rgb(221, 166, 71);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: solid 1.5px black;
+        border-bottom: solid 1.5px black;
+    }
+    
+    
+    #aa{
+        font-size: 15px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blueviolet;
+        margin-top: 20px;
+        height: 20px;
+        
+    
+    }
+    #bb{
+        font-size: 15px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blueviolet;
+        background-color: rgb(221, 166, 71);
+        height: 20px;
+    }
+    
+    #pie{
+        background-color: rgb(221, 166, 71);
+        width: 100vw;
+        height: 10vh;
+        margin: 0%;
+        display: flex;
+    }
+    
+    button{
+        width: 170px;
+        height: 30px;
+        background-color:rgb(221, 166, 71);
+        font-size: 12px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        border-radius: 20px;
+        border-top: 0px;
+        border-left: 0px;
+        transition: 0.8s;
+        
+    }
+    
+    button:hover{
+        background-color: blueviolet;
+    
+    }
+    
+    #beta3{
+        display: flex;
+        /*align-items: center;*/
+    }
+    #b3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #b4{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    #diseñador{
+        font-size: 8px;
+        
+        width: 100%;
+        
+    
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    
+    
+    #Designs{
+        width: 100%;
+        height: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        font-family: millon;
+        
+        
+    }
+    .uno{
+        width: 25%;
+        height: auto;
+        background-color: rgb(221, 166, 71);
+    }
+    
+    .due{
+        width: 25%;
+        height: auto;
+        background-color: rgb(221, 166, 71);
+        
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------  MOVIL  --------------*/
+
+@media screen and (max-width: 767px){
+    
+    html{
+        width: 100vw;
+        height: auto;
+        background-color: black;
+    }
+    
+    @font-face{
+        font-family: millon;
+        src: url(MANCHESTER\ SIGNATURE\ TTF.TTF);
+    }
+    body{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(128, 205, 51);
+        margin: 0%;
+    }
+    
+    #cabeza{
+        background-color: rgb(248, 167, 60);
+        width: 100vw;
+        height: 10vh;
+        margin: 0%;
+        border-top: solid 1px black;
+    }
+    
+    #cajalogo{
+        width: 20%;
+        height: 100%;
+        animation: repulso 2s infinite alternate;
+        
+        
+    }
+    
+    @keyframes repulso {
+        0%{transform: scale(80%);
+        }
+        100%{
+            transform: scale(120%);
+        }
+    }
+    #logo{
+        width: 40%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 10px;
+        
+    
+    }
+    
+    #principal{
+        background-color: red;
+        width: 100vw;
+        height: 80vh;
+        display: block;
+    }
+    
+    
+    #alfa{
+        background-color: blueviolet;
+        width: 100vw;
+        height: 40vh;
+        margin: 0%;
+        
+    }
+    
+    #alfa1{
+        background-color: rgb(174, 121, 224);
+        width: 100vw;
+        height: 60%;
+        align-items: center;
+    }
+    
+    #alfa2{
+        background-color: rgb(174, 121, 224);
+        width: 100vw;
+        height: 40%;
+        display: inline-block;
+        
+    
+    }
+    .a2{
+        display: block;
+    }
+
+    #a2a{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+    }
+    #a2b{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 5px;
+     }
+    
+
+    
+    #beta{
+        background-color: rgb(189, 147, 213);
+        width: 100vw;
+        height: 40vh;
+        margin: 0%;
+    }
+    
+    #beta1{
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .beta2{
+        width: 100vw;
+        height: 60%;
+        background-color: rgb(189, 147, 213);
+    }
+    
+    .img1{
+        width: 30%;
+        height: auto;  
+    }
+    
+    .textimagen{
+        font-size: 8px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    #beta3{
+        width: 100vw;
+        height: 20%;
+        display: inline-block;
+
+    }
+    
+    
+    form{
+        width: 80%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        
+    }
+    #signo{
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+        display: block;
+        margin-left: 14%;
+        margin-top: 0px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+        
+    }
+    
+    #form2{
+        margin-top: 4%;
+        height: 50%;
+    }
+    
+    input{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        color: black;
+        background-color: rgb(221, 166, 71);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: solid 1.5px black;
+        border-bottom: solid 1.5px black;
+    }
+    
+    
+   #aa{
+        font-size: 15px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blueviolet;
+        margin-top: 20px;
+        height: 20px;
+        
+    
+    }
+    #bb{
+        font-size: 15px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blueviolet;
+        background-color: rgb(221, 166, 71);
+        height: 20px;
+    }
+    
+    #pie{
+        background-color: rgb(221, 166, 71);
+        width: 100vw;
+        height: 10vh;
+        margin: 0%;
+        display: flex;
+    }
+    
+    button{
+        width: 100px;
+        height: 20px;
+        background-color:rgb(221, 166, 71);
+        font-size: 12px;
+        font-family: "Original Surfer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        border-radius: 20px;
+        border-top: 0px;
+        border-left: 0px;
+        transition: 0.8s;
+        
+    }
+    
+    button:hover{
+        background-color: blueviolet;
+    
+    }
+    
+
+    #b3{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #b4{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    
+    
+    #diseñador{
+        font-size: 8px;
+        
+        width: 100%;
+        
+    
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    
+    
+    #Designs{
+        width: 100%;
+        height: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: millon;
+        
+        
+    }
+    .uno{
+        width: 25%;
+        height: auto;
+        background-color: rgb(221, 166, 71);
+    }
+    
+    .due{
+        width: 25%;
+        height: auto;
+        background-color: rgb(221, 166, 71);
+        
+    }
+    
+    
+}
